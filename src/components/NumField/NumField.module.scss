@@ -1,0 +1,13 @@
+@import './../../common/normalize';
+@import './../../common/variables';
+
+.numfield {
+    grid-area: numfield;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: $padding;
+    font-size: 64px;
+    font-family: $font-family;
+}

@@ -1,0 +1,13 @@
+@import './../../common/normalize';
+@import './../../common/variables';
+
+.keyboard {
+    padding: $padding;
+    background-color: #ccc;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto;
+    row-gap: 0px;
+    grid-template-areas: "numfield" "buttons";
+}

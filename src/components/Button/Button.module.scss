@@ -1,0 +1,16 @@
+@import './../../common/normalize';
+@import './../../common/variables';
+
+.button {
+    background-color: #fff;
+    padding: $padding;
+    border-radius: $border-radius;
+    border: none;
+    font-size: 32px;
+    font-family: $font-family;
+    box-shadow: #ccc 0px 2px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
