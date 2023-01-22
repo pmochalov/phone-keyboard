@@ -3,11 +3,12 @@
 
 .numfield {
     grid-area: numfield;
-    background-color: #fff;
+    background-color: #eee;
+    border-bottom: #fff 1px solid;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: $padding;
-    font-size: 64px;
+    font-size: 40px;
     font-family: $font-family;
 }

@@ -27,6 +27,12 @@ export const buttons = [
         value: 9 
     },
     { 
+        value: '*' 
+    },    
+    { 
         value: 0 
-    }
+    },
+    { 
+        value: '#' 
+    }    
 ];

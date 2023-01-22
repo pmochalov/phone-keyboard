@@ -9,6 +9,7 @@
     font-size: 32px;
     font-family: $font-family;
     box-shadow: #ccc 0px 2px;
+    outline: none;
 
     &:hover {
         cursor: pointer;
@@ -18,5 +19,21 @@
     &:active {
         box-shadow: #bbb 0px 0px;
         transform: translateY(2px);
+    }
+
+    &[disabled]:active {
+        box-shadow: #bbb 0px 2px;
+        transform: translateY(0);
+    }    
+
+    &:last-child { /* Кнопка Backspace */
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+        &::before {
+            content: "←"
+        }
     }
 }

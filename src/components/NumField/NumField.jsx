@@ -1,10 +1,10 @@
 import React from "react";
 import s from './NumField.module.scss';
 
-const NumField = ({num}) => {
+const NumField = ({number}) => {
     return (
         <div className={s.numfield}>
-            {num}
+            {number}
         </div>
     );
 };
