@@ -12,5 +12,11 @@
 
     &:hover {
         cursor: pointer;
+        box-shadow: #bbb 0px 2px;
+    }
+
+    &:active {
+        box-shadow: #bbb 0px 0px;
+        transform: translateY(2px);
     }
 }
